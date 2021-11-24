@@ -14,7 +14,7 @@ namespace AutoShop.Data.Models
         public string img { set; get; }
         public ushort price { set; get; }
         public bool isFavourite { set; get; }
-        public int available { set; get; }
+        public bool available { set; get; }
         public int categoryID { set; get; }
         public virtual Category Category { set; get; }
 
