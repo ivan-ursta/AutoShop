@@ -1,4 +1,5 @@
 ﻿using AutoShop.Data.interfaces;
+using AutoShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,8 +21,11 @@ namespace AutoShop.Controllers
 
         public ViewResult List()
         {
-            var cars = _allCars.Cars;
-            return View(cars);
+            ViewBag.Title = " Сторінка з автомобілями";
+            CarsListViewModel obj = new CarsListViewModel();
+            obj.allCars = _allCars.Cars;
+            obj.currCategory = "Автомобілі";
+            return View(obj);
         }
     }
 }

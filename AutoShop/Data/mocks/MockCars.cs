@@ -20,7 +20,7 @@ namespace AutoShop.Data.mocks
                     new Car {
                         name = "Tesla", 
                         shortDesc="Electro",longDesc="Electro engine",
-                        img="https://cdn.motor1.com/images/mgl/Mrw6p/s1/tesla-model-x-2021.webp",
+                        img="/img/tesla.jpg",
                         price=45000, 
                         isFavourite = true, 
                         available = true, 
@@ -29,7 +29,7 @@ namespace AutoShop.Data.mocks
                     new Car {
                         name = "Skoda",
                         shortDesc="Diesel",longDesc="Diesel engine",
-                        img="https://www.autoconsulting.com.ua/pictures/Skoda/2020/Skoda_Octavia_01.jpg",
+                        img="/img/skoda.jpg",
                         price=45000,
                         isFavourite = false,
                         available = true,
@@ -38,7 +38,7 @@ namespace AutoShop.Data.mocks
                     new Car {
                         name = "Mercedes",
                         shortDesc="Gasoline",longDesc="Gasoline engine",
-                        img="https://cdnimg.rg.ru/img/content/183/76/39/Mercedes-Benz_d_850.jpg",
+                        img="/img/mercedes.jpg",
                         price=45000,
                         isFavourite = true,
                         available = true,
