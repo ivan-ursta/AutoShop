@@ -31,7 +31,7 @@ namespace AutoShop.Data
                      },
                     new Car
                     {
-                        name = "Skoda",
+                        name = "Skoda Octavia",
                         shortDesc = "Diesel",
                         longDesc = "Diesel engine",
                         img = "/img/skoda.jpg",
@@ -42,7 +42,7 @@ namespace AutoShop.Data
                     },
                     new Car
                     {
-                        name = "Mercedes",
+                        name = "Mercedes-Benz",
                         shortDesc = "Gasoline",
                         longDesc = "Gasoline engine",
                         img = "/img/mercedes.jpg",
@@ -50,8 +50,19 @@ namespace AutoShop.Data
                         isFavourite = true,
                         available = true,
                         Category = Categories["Класичні автомобілі"]
-                    }
-                    );
+                    },
+                     new Car
+                     {
+                         name = "Audi A6",
+                         shortDesc = "Gasoline",
+                         longDesc = "Gasoline engine",
+                         img = "/img/Audi.jpg",
+                         price = 45000,
+                         isFavourite = true,
+                         available = true,
+                         Category = Categories["Класичні автомобілі"]
+                     }
+                    );    
             }
             content.SaveChanges();
         }

@@ -24,13 +24,6 @@ D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\scopedcss\bundle\AutoShop.styles
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.TagHelpers.input.cache
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.TagHelpers.output.cache
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.RazorCoreGenerate.cache
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
-D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.RazorTargetAssemblyInfo.cache
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.RazorTargetAssemblyInfo.cs
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\AutoShop.Views.pdb
@@ -102,3 +95,4 @@ D:\IT\GitHub\AutoShop\AutoShop\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 D:\IT\GitHub\AutoShop\AutoShop\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\IT\GitHub\AutoShop\AutoShop\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\ShopCart\Index.cshtml.g.cs
+D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs

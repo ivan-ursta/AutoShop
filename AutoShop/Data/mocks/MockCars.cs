@@ -43,7 +43,18 @@ namespace AutoShop.Data.mocks
                         isFavourite = true,
                         available = true,
                         Category = _categoryCars.AllCategories.Last()
-                    }
+                    },
+                    new Car
+                     {
+                         name = "Audi A6",
+                         shortDesc = "Gasoline",
+                         longDesc = "Gasoline engine",
+                         img = "/img/Audi.jpg",
+                         price = 45000,
+                         isFavourite = true,
+                         available = true,
+                         Category = _categoryCars.AllCategories.Last()
+                     }
 
                 };
             }

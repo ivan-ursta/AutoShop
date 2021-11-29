@@ -38,7 +38,7 @@ namespace AutoShop
 
             services.AddScoped(sp => ShopCart.GetCart(sp));
 
-            services.AddMvc();
+            //services.AddMvc();
             services.AddMemoryCache();
             services.AddSession();
         }
