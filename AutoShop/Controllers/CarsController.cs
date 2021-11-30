@@ -1,4 +1,5 @@
 ﻿using AutoShop.Data.interfaces;
+using AutoShop.Data.Models;
 using AutoShop.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -19,13 +20,38 @@ namespace AutoShop.Controllers
             _allCategories = iCarsCat;
         }
 
-        public ViewResult List()
+        [Route("Cars/List")]
+        [Route("Cars/List/{category}")]
+        public ViewResult List(string category)
         {
-            ViewBag.Title = " Сторінка з автомобілями";
-            CarsListViewModel obj = new CarsListViewModel();
-            obj.allCars = _allCars.Cars;
-            obj.currCategory = "Автомобілі";
-            return View(obj);
+            string _category = category;
+            IEnumerable<Car> cars = null;
+            string currCategory = "";
+            if (string.IsNullOrEmpty(category))
+            {
+                cars = _allCars.Cars.OrderBy(i => i.id);
+            }
+            else
+            {
+                if(string.Equals("electro",category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Електромобілі")).OrderBy(i => i.id);
+                    currCategory = "Електромобілі";
+                }
+                else if(string.Equals("fuel", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    cars = _allCars.Cars.Where(i => i.Category.categoryName.Equals("Класичні автомобілі")).OrderBy(i => i.id);
+                    currCategory = "Класичні автомобілі";
+                }            
+            }
+            var carObj = new CarsListViewModel
+            {
+                allCars = cars,
+                currCategory = currCategory
+            };
+
+            ViewBag.Title = " Сторінка з автомобілями"; 
+            return View(carObj);
         }
     }
 }
