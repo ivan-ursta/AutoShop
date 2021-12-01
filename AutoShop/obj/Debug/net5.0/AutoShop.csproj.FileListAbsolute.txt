@@ -96,3 +96,5 @@ D:\IT\GitHub\AutoShop\AutoShop\bin\Debug\net5.0\Microsoft.Extensions.Primitives.
 D:\IT\GitHub\AutoShop\AutoShop\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\ShopCart\Index.cshtml.g.cs
 D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
+D:\IT\GitHub\AutoShop\AutoShop\obj\Debug\net5.0\Razor\Views\Order\Complete.cshtml.g.cs
